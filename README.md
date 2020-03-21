@@ -88,3 +88,15 @@ Não Informada.
 
 ##### Prazos para a realização do trabalho:
 4 meses
+
+
+...
+### Atividade 02
+Agora que você já validou seu briefing de solução web, chegou a hora de iniciar o seu desenvolvimento. Para isso, nesta etapa é importante você diagramar as páginas HTML e os formulários que serão utilizados na sua aplicação web. 
+
+##### Entrega
+Após diagramar as páginas HTML que utilizará em sua aplicação, salve-as em uma pasta com o nome do projeto. Depois, compacte-a e poste-a no ambiente virtual de aprendizagem (AVA).
+
+##### Avaliação
+**Nesta etapa, você deverá atender a este indicador:**  
+Elabora síntese do Projeto Integrador, respondendo às especificações do tema gerador.
