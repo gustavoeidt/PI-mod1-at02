@@ -90,7 +90,7 @@ Não Informada.
 4 meses
 
 
-...
+___
 ### Atividade 02
 Agora que você já validou seu briefing de solução web, chegou a hora de iniciar o seu desenvolvimento. Para isso, nesta etapa é importante você diagramar as páginas HTML e os formulários que serão utilizados na sua aplicação web. 
 
