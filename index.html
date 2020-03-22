@@ -8,7 +8,7 @@
 
         <title>Concursos de Informática</title>
         <style>
-            * {color: #d0ceba;}
+            * {color: #d0ceba; font-family: Arial, Helvetica, sans-serif;}
             .independence {color: #4b3f72;}
             .amazon {color: #417b5a;}
             .pastelGray {color: #d0ceba;}
@@ -19,15 +19,21 @@
             .pastelGrayBG {background-color: #d0ceba;}
             .dustStormBG {background-color: #e9d2c0;}
             .EerieBlackBG {background-color: #1b1b1e;}
+
+            nav li a:hover {color: #e9d2c0; text-decoration:underline !important;}
         </style>
     </head>
-    <body class="EerieBlackBG">
-        <header>Header</header>
-        <nav>
-            <ul>
-                <li>Menu</li>
-                <li>Menu</li>
-                <li>Menu</li>
+    <body class="EerieBlackBG" style="padding: 0; margin: 0;">
+        <header style="background-image: url('img/header.jpg'); padding: 10px 20px;">
+            <h1>Concursos de Tecnologia</h1>
+        </header>
+        <nav class="independenceBG">
+            <ul style="margin: 0; padding: 10px 20px; list-style: none;">
+                <li style="display: inline; margin-right: 20px;" ><a style="cursor: pointer; font-weight: bold; text-decoration: none;" href="#">Menu</a></li>
+                <li style="display: inline; margin-right: 20px;" ><a style="cursor: pointer; font-weight: bold; text-decoration: none;" href="#">Menu</a></li>
+                <li style="display: inline; margin-right: 20px;" ><a style="cursor: pointer; font-weight: bold; text-decoration: none;" href="#">Menu</a></li>
+                <li style="display: inline; margin-right: 20px;" ><a style="cursor: pointer; font-weight: bold; text-decoration: none;" href="#">Menu</a></li>
+                <li style="display: inline; margin-right: 20px;" ><a style="cursor: pointer; font-weight: bold; text-decoration: none;" href="#">Menu</a></li>
             </ul>
         </nav>
         <section>
@@ -39,7 +45,7 @@
         <aside>
             aside
         </aside>
-        <footer>
+        <footer class="amazonBG" style="padding: 10px 20px;">
             footer
         </footer>
     </body>
