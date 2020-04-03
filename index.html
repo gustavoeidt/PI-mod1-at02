@@ -7,22 +7,8 @@
         <meta name="author" content="Gustavo Albuquerque Eidt">
 
         <title>Infocon - Concursos de Informática</title>
-        <style>
-            * {color: #d0ceba; font-family: Arial, Helvetica, sans-serif;}
-            .independence {color: #4b3f72;}
-            .amazon {color: #417b5a;}
-            .pastelGray {color: #d0ceba;}
-            .dustStorm {color: #e9d2c0;}
-            .EerieBlack {color: #1b1b1e;}
-            .independenceBG {background-color: #4b3f72;}
-            .amazonBG {background-color: #417b5a;}
-            .pastelGrayBG {background-color: #d0ceba;}
-            .dustStormBG {background-color: #e9d2c0;}
-            .EerieBlackBG {background-color: #1b1b1e;}
-
-            nav li a:hover {color: #e9d2c0; text-decoration:underline !important;}
-
-        </style>
+        <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/site.css" />
     </head>
     <body class="EerieBlackBG" style="padding: 0; margin: 0;">
         <header style="background-image: url('img/header.jpg'); padding: 10px 20px;">
@@ -31,9 +17,10 @@
         
         <nav class="independenceBG">
             <ul style="margin: 0; padding: 10px 20px; list-style: none;">
-                <li style="display: inline; margin-right: 20px;" ><a style="cursor: pointer; font-weight: bold; text-decoration: none;" href="/">Home</a></li>
-                <li style="display: inline; margin-right: 20px;" ><a style="cursor: pointer; font-weight: bold; text-decoration: none;" href="/editais">Listagem de Editais</a></li>
-                <li style="display: inline; margin-right: 20px;" ><a style="cursor: pointer; font-weight: bold; text-decoration: none;" href="/contato">Contato</a></li>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="editais.html">Listagem de Editais</a></li> 
+                <li><a href="contato.html">Contato</a></li> 
+                <li><a href="login.html">Entrar</a></li>
             </ul>
         </nav>
 
@@ -72,11 +59,14 @@
         </section>
 
         <aside style=" float: left; margin: 10px; padding: 10px;" class="dustStormBG EerieBlack">
-            <a href="/anuncie"><img src="img/anuncie.jpg" alt="Anuncie Aqui"></a>
+            <a href="anuncie.html"><img src="img/anuncie.jpg" alt="Anuncie Aqui"></a>
         </aside>
         
         <footer class="amazonBG" style="padding: 40px 20px; clear: both;">
             &copy; 2020 Infocon | <strong>Fone:</strong> +55 (47) 9999-9999
         </footer>
+        <script src="lib/jquery/dist/jquery.min.js"></script>
+        <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
     </body>
 </html>
